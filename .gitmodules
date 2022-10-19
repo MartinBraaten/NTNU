@@ -4,3 +4,15 @@
 [submodule "TDT4100-OOP"]
 	path = TDT4100-OOP
 	url = https://github.com/MartinBraaten/TDT4100-OOP.git
+[submodule "TDT4160-Datamaskiner-og-digitalteknikk"]
+	path = TDT4160-Datamaskiner-og-digitalteknikk
+	url = https://github.com/MartinBraaten/TDT4160-Datamaskiner-og-digitalteknikk.git
+[submodule "TDT4145-Datamodellering-og-Databasesystemer"]
+	path = TDT4145-Datamodellering-og-Databasesystemer
+	url = https://github.com/MartinBraaten/TDT4145-Datamodellering-og-Databasesystemer.git
+[submodule "TKT4201-Konstruksjonsdynamikk"]
+	path = TKT4201-Konstruksjonsdynamikk
+	url = https://github.com/MartinBraaten/TKT4201-Konstruksjonsdynamikk.git
+[submodule "TKT4950-Konstruksjonsteknikk-masteroppgave"]
+	path = TKT4950-Konstruksjonsteknikk-masteroppgave
+	url = https://github.com/MartinBraaten/TKT4950-Konstruksjonsteknikk-masteroppgave.git
