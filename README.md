@@ -19,3 +19,4 @@ This repo contains some of my work and projects as a student at NTNU.
 The content of this repo is not intended to be used as an easy way to finish the assignments by blindly copying, but rather for inspiration and learning.
 
 Feel free to use my code, documentation and summaries for learning purposes.
+
