@@ -1,16 +1,16 @@
-### Hi there 👋
+# NTNU
 
-<!--
-**Iceaxis/Iceaxis** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This repo contains some of my work and projects as a student at NTNU.
 
-Here are some ideas to get you started:
+**Courses contained in this repo:**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- IT1901 - Informatikk prosjektarbeid 1
+- IT2805 - Webteknologi
+- TDT4100 - Objektorientert Programmering
+- TDT4109 - Informasjonsteknologi Grunnkurs
+- TDT4120 - Algoritmer og Datastrukturer
+- TDT4145 - Datamodellering og Databasesystemer
+
+The content of this repo is not intended to be used as an easy way to finish the assignments by blindly copying, but rather for inspiration and learning.
+
+Feel free to use my code, documentation and summaries for learning purposes.
