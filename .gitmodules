@@ -1,3 +1,6 @@
 [submodule "IT2805-Webteknologi"]
 	path = IT2805-Webteknologi
 	url = https://github.com/MartinBraaten/IT2805-Webteknologi.git
+[submodule "TDT4100-OOP"]
+	path = TDT4100-OOP
+	url = https://github.com/MartinBraaten/TDT4100-OOP.git
