@@ -19,3 +19,6 @@
 [submodule "TTM4100-KTN"]
 	path = TTM4100-KTN
 	url = https://github.com/MartinBraaten/TTM4100-KTN.git
+[submodule "TDT4120-AlgDat"]
+	path = TDT4120-AlgDat
+	url = https://github.com/MartinBraaten/TDT4120-AlgDat
