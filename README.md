@@ -7,7 +7,6 @@ This repo contains some of my work and projects as a student at NTNU.
 - IT2805 - Webteknologi
 - TDT4100 - Objektorientert Programmering
 - TDT4109 - Informasjonsteknologi Grunnkurs
-- TDT4120 - Algoritmer og Datastrukturer
 - TDT4145 - Datamodellering og Databasesystemer
 - TDT4160 - Datamaskiner og digitalteknikk
 - TKT4140 - Numeriske beregninger
