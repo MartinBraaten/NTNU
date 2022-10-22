@@ -22,3 +22,9 @@
 [submodule "TDT4120-AlgDat"]
 	path = TDT4120-AlgDat
 	url = https://github.com/MartinBraaten/TDT4120-AlgDat
+[submodule "TKT4140-Numeriske-Beregninger"]
+	path = TKT4140-Numeriske-Beregninger
+	url = https://github.com/MartinBraaten/TKT4140-Numeriske-Beregninger
+[submodule "TDT4109-ITGK"]
+	path = TDT4109-ITGK
+	url = https://github.com/MartinBraaten/TDT4109-ITGK
