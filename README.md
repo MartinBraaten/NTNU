@@ -12,6 +12,7 @@ This repo contains some of my work and projects as a student at NTNU.
 - TKT4140 - Numeriske beregninger
 - TKT4201 - Konstruksjonsdynamikk
 - TKT4950 - Konstruksjonsteknikk, masteroppgave
+- TTM4100 - Kommunikasjon - Tjenester og nett
 
 
 

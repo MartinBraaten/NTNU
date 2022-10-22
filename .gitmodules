@@ -16,3 +16,6 @@
 [submodule "TKT4950-Konstruksjonsteknikk-masteroppgave"]
 	path = TKT4950-Konstruksjonsteknikk-masteroppgave
 	url = https://github.com/MartinBraaten/TKT4950-Konstruksjonsteknikk-masteroppgave.git
+[submodule "TTM4100-KTN"]
+	path = TTM4100-KTN
+	url = https://github.com/MartinBraaten/TTM4100-KTN.git
