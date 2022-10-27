@@ -15,7 +15,7 @@ This repo contains some of my work and projects as a student at NTNU.
 - TKT4950 - Konstruksjonsteknikk, masteroppgave
 - TTM4100 - Kommunikasjon - Tjenester og nett
 
-**Courses I will add in January**
+**Courses I will add in January:**
 
 - IT2810 - Webutvikling
 - IT1901 - Informatikk prosjektarbeid I
