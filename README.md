@@ -19,7 +19,7 @@ This repo contains some of my work and projects as a student at NTNU.
 
 - IT2810 - Webutvikling
 - IT1901 - Informatikk prosjektarbeid I
-- TDT4117 - Informasjonsgjenfinning
+
 
 
 
