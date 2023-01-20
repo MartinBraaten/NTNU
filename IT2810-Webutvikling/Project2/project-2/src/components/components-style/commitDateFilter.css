@@ -1,0 +1,295 @@
+#calendarDate {
+    width: 400px;
+    height: 250px;
+    position: relative;
+    z-index: 10;
+}
+
+#light #calendarDate {
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#dark #calendarDate {
+    background-color: #1f3039;
+    color: #fff;
+}
+
+#calendarDate label{
+    font-size: 25px;
+}
+
+#flexDiv {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.commitFilterInput{
+    border: 2px solid #00b188;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 25px;
+    line-height: 50px;
+    width: 300px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#dropDownDateButton {
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    width: 100px;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+#light #dropDownDateButton {
+    background-color: #00b188;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#dark #dropDownDateButton {
+    background-color: #345160;
+}
+
+#light #dropDownDateButton:hover {
+    background-color: #01C698;
+}
+
+#dark #dropDownDateButton:hover {
+    background-color: #415f6f;
+}
+
+#outerFilterBox {
+    position: relative;
+    width: 210px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#light #outerFilterBox {
+    background-color: #00b188;
+}
+
+#dark #outerFilterBox {
+    background-color: #345160;
+}
+
+#outerFilterBox {
+    cursor: default;
+}
+
+#fromTo {
+    width: 160px;
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+#innerBox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#light #innerBox {
+    background-color: #01C698;
+}
+
+#dark #innerBox {
+    background-color: #263c47;
+}
+
+#innerBox:hover {
+    cursor: pointer;
+}
+#innerBox img {
+    width: 30px;
+    margin: auto;
+}
+
+#outerFilterBox:hover #innerBox {
+    background-color: #03d4a3;
+    transition: 300ms;
+}
+
+@media screen and (max-width: 880px) {
+    #outerFilterBox {
+        width: 180px;
+        height: 40px;
+    }
+    #innerBox {
+        width: 40px;
+        height: 40px;
+    }
+    #innerBox img {
+        width: 24px;
+    }
+    #calendarDate label{
+        font-size: 20px;
+    }
+    #fromTo {
+        width: 140px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .commitFilterInput {
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+        width: 250px;
+    }
+    #dropDownDateButton {
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+        width: 80px;
+    }
+    #calendarDate {
+        width: 325px;
+    }
+    #flexDiv {
+        width: 325px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    #outerFilterBox {
+        width: 150px;
+        height: 35px;
+    }
+    #innerBox {
+        width: 35px;
+        height: 35px;
+    }
+    #innerBox img {
+        width: 21px;
+    }
+    #calendarDate label{
+        font-size: 18px;
+    }
+    #fromTo {
+        width: 115px;
+        font-size: 18px;
+        line-height: 35px;
+    }
+    #dropDownDateButton {
+        height: 35px;
+        font-size: 18px;
+        line-height: 35px;
+        width: 90px;
+    }
+    .commitFilterInput {
+        height: 35px;
+        font-size: 18px;
+        line-height: 35px;
+        width: 200px;
+    }
+    #calendarDate {
+        width: 275px;
+        height: 200px;
+    }
+    #flexDiv {
+        width: 275px;
+        height: 200px;
+
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #outerFilterBox {
+        width: 130px;
+        height: 30px;
+    }
+    #innerBox {
+        width: 30px;
+        height: 30px;
+    }
+    #innerBox img {
+        width: 18px;
+    }
+    #calendarDate label{
+        font-size: 15px;
+    }
+    #fromTo {
+        width: 100px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    #dropDownDateButton {
+        height: 30px;
+        font-size: 15px;
+        line-height: 30px;
+        width: 80px;
+    }
+    .commitFilterInput {
+        height: 30px;
+        font-size: 15px;
+        line-height: 30px;
+        width: 150px;
+    }
+    #calendarDate {
+        width: 200px;
+    }
+    #flexDiv {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #outerFilterBox {
+        width: 180px;
+        height: 40px;
+    }
+    #innerBox {
+        width: 40px;
+        height: 40px;
+    }
+    #innerBox img {
+        width: 24px;
+    }
+    #calendarDate label{
+        font-size: 20px;
+    }
+    #fromTo {
+        width: 140px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    #dropDownDateButton {
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+        width: 80px;
+    }
+    .commitFilterInput {
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+        width: 200px;
+    }
+    #calendarDate {
+        width: 265px;
+        height: 210px;
+
+    }
+    #flexDiv {
+        width: 265px;
+        height: 210px;
+
+    }
+}

@@ -1,0 +1,15 @@
+#issueContainer {
+    width: 60vw;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    #issueContainer {
+        margin-top: 20px;
+        width: 90vw;
+    }
+}

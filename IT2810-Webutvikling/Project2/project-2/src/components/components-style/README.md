@@ -1,0 +1,1 @@
+This folder is for the css-files corresponding to the components

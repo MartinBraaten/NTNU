@@ -1,0 +1,96 @@
+#tabs {
+    position: absolute;
+    left: -40px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -15px;
+    cursor: pointer;
+
+}
+
+.tab {
+    position: relative;
+    left: auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    line-height: 50px;
+    margin: 5px 0px;
+    font-size: 25px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#light .tab:hover {
+    background-color: #01C698;
+}
+
+#dark .tab:hover {
+    background-color: #415f6f;
+}
+
+#dark .tab {
+    background-color: #345160;
+}
+
+#light .tab {
+    background-color: #00b188;
+}
+
+#member {
+    transition: 300ms;
+}
+
+#commit {
+    transition: 300ms;
+}
+
+#issue {
+    transition: 300ms;
+}
+
+@media screen and (max-width: 880px) {
+    #tabs {
+        width: 170px;
+        height: 170px;
+    }
+    .tab {
+        width: 170px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    #tabs {
+        left: -25px;
+        width: 130px;
+        height: 130px;
+        margin-top: -2px;
+    }
+    .tab {
+        width: 130px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #tabs {
+        left: -15px;
+        width: 100px;
+        height: 100px;
+        margin-top: 5px;
+    }
+    .tab {
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+}

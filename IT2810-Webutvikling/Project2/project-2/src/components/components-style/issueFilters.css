@@ -1,0 +1,50 @@
+#issueFilters {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    gap: 10px;
+}
+
+#issueFilterElements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 408px;
+}
+
+#dark #issueSearchBar {
+    background-color: #345160;
+    color: white;
+}
+
+#light #issueSearchBar {
+    background-color: #fff;
+    border: #00b188 2px solid;
+    color: black;
+}
+
+
+@media screen and (max-width: 880px) {
+    #issueFilterElements {
+        width: 308px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    #issueFilterElements {
+        width: 278px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #issueFilterElements {
+        width: 248px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #issueFilterElements {
+        width: 288px;
+    }
+}

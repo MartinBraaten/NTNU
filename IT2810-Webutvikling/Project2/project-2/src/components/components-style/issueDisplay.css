@@ -1,0 +1,163 @@
+#issueBox {
+    width: 50vw;
+    margin: auto;
+    height: fit-content;
+    border-radius: 1.5vw;
+    display: grid;
+    grid-template-areas: 'name name' 'commit commit';
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#light #issueBox {
+    background-color: #ffffff;
+}
+
+#dark #issueBox {
+    background-color: #1f323b;
+    color: #fff;
+}
+
+#bold {
+    font-weight: 500;
+}
+
+#issueBox h1 {
+    grid-area: name;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-weight: 800;
+    text-align: left;
+    line-height: 50px;
+    margin: 0;
+    font-size: 30px;
+}
+
+#light #issueBox h1 {
+    color: #00B188;
+}
+
+#dark #issueBox h1 {
+    color: #fff;
+}
+
+#issueBox p {
+    grid-area: commit;
+    text-align: left;
+    line-height: 50px;
+    font-size: 25px;
+    margin: 0;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height: min-content;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 1100px) {
+    #issueBox h1 {
+        font-size: 25px;
+    }
+    #issueBox p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    #issueBox h1 {
+        font-size: 23px;
+        line-height: 40px;
+    }
+    #issueBox p {
+        font-size: 18px;
+        line-height: 40px;
+
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #issueBox h1 {
+        font-size: 20px;
+    }
+    #issueBox p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    #issueBox h1 {
+        font-size: 18px;
+        line-height: 30px;
+
+    }
+    #issueBox p {
+        font-size: 13px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #issueBox h1 {
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+    #issueBox p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #issueBox h1 {
+        font-size: 23px;
+        line-height: 40px;
+    }
+    #issueBox h2 {
+        font-size: 18px;
+        line-height: 40px;
+    }
+    #issueBox p {
+        font-size: 18px;
+        line-height: 40px;
+
+    }
+    #issueBox {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #issueBox h1 {
+        font-size: 18px;
+        line-height: 30px;
+
+    }
+    #issueBox h2 {
+        font-size: 13px;
+        line-height: 30px;
+
+    }
+    #issueBox p {
+        font-size: 13px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #issueBox h1 {
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+    #issueBox h2 {
+        font-size: 10px;
+        line-height: 20px;
+
+    }
+    #issueBox p {
+        font-size: 10px;
+        line-height: 20px;
+
+    }
+}

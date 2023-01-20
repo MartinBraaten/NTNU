@@ -1,0 +1,161 @@
+#commitBox {
+    width: 50vw;
+    margin: auto;
+    height: fit-content;
+    border-radius: 1.5vw;
+    display: grid;
+    grid-template-areas: 'name name' 'commit commit';
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#light #commitBox {
+    background-color: #ffffff;
+}
+
+#dark #commitBox {
+    background-color: #1f323b;
+    color: #fff;
+}
+
+#bold {
+    font-weight: 500;
+}
+
+#commitBox h1 {
+    grid-area: name;
+    padding-left: 2vw;
+    font-weight: 800;
+    text-align: left;
+    line-height: 50px;
+    margin: 0;
+    font-size: 30px;
+}
+
+#light #commitBox h1 {
+    color: #00B188;
+}
+
+#dark #commitBox h1 {
+    color: #fff;
+}
+
+#commitBox p {
+    grid-area: commit;
+    text-align: left;
+    line-height: 50px;
+    font-size: 25px;
+    margin: 0;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height: min-content;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 1100px) {
+    #commitBox h1 {
+        font-size: 25px;
+    }
+    #commitBox p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    #commitBox h1 {
+        font-size: 23px;
+        line-height: 40px;
+    }
+    #commitBox p {
+        font-size: 18px;
+        line-height: 40px;
+
+    }
+    #commitBox {
+        grid-template-rows: 40px auto;    
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #commitBox h1 {
+        font-size: 20px;
+    }
+    #commitBox p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    #commitBox h1 {
+        font-size: 18px;
+        line-height: 30px;
+
+    }
+    #commitBox p {
+        font-size: 13px;
+        line-height: 30px;
+    }
+    #commitBox {
+        grid-template-rows: 30px auto;    
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #commitBox h1 {
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+
+    #commitBox p {
+        font-size: 10px;
+        line-height: 20px;
+
+    }
+
+}
+@media screen and (max-width: 600px) {
+    #commitBox h1 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    #commitBox p {
+        font-size: 18px;
+        line-height: 40px;
+
+    }
+    #commitBox {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #commitBox h1 {
+        font-size: 18px;
+        line-height: 30px;
+
+    }
+    #commitBox p {
+        font-size: 13px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #commitBox h1 {
+        font-size: 15px;
+        line-height: 30px;
+
+    }
+    #commitBox h2 {
+        font-size: 10px;
+        line-height: 20px;
+
+    }
+    #commitBox p {
+        font-size: 10px;
+        line-height: 20px;
+
+    }
+}

@@ -1,0 +1,176 @@
+#memberBox {
+    width: 50vw;
+    margin: auto;
+    height: 100px;
+    border-radius: 1.5vw;
+    display: grid;
+    background-color: #ffffff;
+    grid-template-areas: 'image name' 'image commit';
+    grid-template-columns: 100px minmax(auto, calc(46vw - 100px));
+    grid-template-rows: 50px 50px;
+    column-gap: 2vw;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#dark #memberBox {
+    background-color: #1f323b;
+    color: #fff;
+}
+
+#memberBox img {
+    height: 100px;
+    grid-area: image;
+    border-radius: 1.5vw;
+}
+
+#memberBox h1 {
+    grid-area: name;
+    font-weight: 800;
+    text-align: left;
+    line-height: 50px;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+#light #memberBox h1 {
+    color: #00B188;
+}
+
+#dark #memberBox h1 {
+    color: #fff;
+}
+
+#memberBox p {
+    grid-area: commit;
+    text-align: left;
+    line-height: 50px;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+#bold {
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1100px) {
+    #memberBox h1 {
+        font-size: 25px;
+    }
+    #memberBox p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    #memberBox h1 {
+        font-size: 23px;
+    }
+    #memberBox p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #memberBox h1 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    #memberBox p {
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    #memberBox {
+        height: 80px;
+        grid-template-columns: 80px minmax(auto, calc(46vw - 80px));
+        grid-template-rows: 40px 40px;    
+    }
+
+    #memberBox img {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    #memberBox h1 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    #memberBox p {
+        font-size: 13px;
+        line-height: 30px;
+
+    }
+    #memberBox {
+        height: 60px;
+        grid-template-columns: 60px minmax(auto, calc(46vw - 60px));
+        grid-template-rows: 30px 30px;    
+    }
+    #memberBox img {
+        height: 60px;
+    
+    }
+}
+
+@media screen and (max-width: 630px) {
+    #memberBox h1 {
+        font-size: 15px;
+    }
+    #memberBox p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #memberBox {
+        width: 80vw;
+        height: 80px;
+        grid-template-columns: 80px minmax(auto, calc(76vw - 80px));
+        grid-template-rows: 40px 40px;    
+    }
+    #memberBox h1 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    #memberBox p {
+        font-size: 15px;
+        line-height: 40px;
+    }
+    #memberBox img {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #memberBox h1 {
+        font-size: 18px;
+    }
+    #memberBox p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #memberBox {
+        height: 60px;
+        grid-template-columns: 60px minmax(auto, calc(76vw - 60px));
+        grid-template-rows: 30px 30px;    
+    }
+    #memberBox h1 {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    #memberBox p {
+        font-size: 10px;
+        line-height: 30px;
+    }
+    #memberBox img {
+        height: 60px;
+    }
+}

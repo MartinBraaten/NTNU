@@ -1,0 +1,37 @@
+#memberFilters {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    gap: 10px;
+}
+
+#memberFilterElements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 408px;
+}
+
+
+@media screen and (max-width: 880px) {
+    #memberFilterElements {
+        width: 308px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    #memberFilterElements {
+        width: 278px;
+    }
+}
+@media screen and (max-width: 650px) {
+    #memberFilterElements {
+        width: 248px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #memberFilterElements {
+        width: 288px;
+    }
+}

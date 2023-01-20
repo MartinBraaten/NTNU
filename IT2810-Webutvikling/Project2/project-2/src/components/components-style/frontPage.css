@@ -1,0 +1,98 @@
+#frontPage{
+    min-height: 100vh;
+    height: 100%;
+}
+
+#header {
+    height: 300px;
+    background-color: #345160;
+    color: white;
+    line-height: 300px;
+    font-size: 100px;
+    text-shadow: 2px 2px black;
+    overflow: hidden;
+}
+#title {
+    position: absolute;
+    top: 0;
+    font-weight: 400;
+    font-size: 100px;
+    z-index: 2;
+    left: 0; 
+    right: 0; 
+    margin: 0 auto;
+    text-shadow: 2px 2px black;
+}
+#light #title {
+    color: white;
+}
+#dark #title {
+    color: #1f3039;
+}
+#header img {
+    width: 100vw;
+}
+#title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+#splore {
+    color: #01C698;
+}
+#subtitle {
+    font-weight: 300;
+    font-size: 30px;
+}
+#container {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 220px;
+}
+
+#dark {
+    background-color: #263c47;
+}
+
+#dark #subtitle {
+    color: #fff;
+}
+  
+#light {
+    background-color: #ededed;
+}
+
+#frontPageToggle {
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 100;
+}
+
+@media screen and (max-width: 600px) {
+    #container {
+        width: 360px;
+        height: 180px;
+        margin-top: 30px;
+    }
+    #subtitle {
+        font-size: 20px;
+    }
+    #title {
+        font-size: 80px;
+        line-height: 200px;
+    }
+    #header {
+        height: 200px;
+        background-color: #345160;
+        color: white;
+        line-height: 300px;
+        font-size: 100px;
+        text-shadow: 2px 2px black;
+    }
+}

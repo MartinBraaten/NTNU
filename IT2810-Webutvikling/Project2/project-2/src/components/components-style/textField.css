@@ -1,0 +1,28 @@
+.input {
+    height: 40px;
+    border-radius: 5px;
+    font-size: 25px;
+    line-height: 40px;
+    width: 450px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+    border: 2px solid #00b188;
+}
+
+#dark .input {
+    background-color: #345160;
+    color: white;
+}
+
+#dark .input::placeholder {
+    color: rgb(170, 168, 168);
+}
+
+@media screen and (max-width: 600px) {
+    .input {
+        width: 300px;
+        font-size: 20px;
+        line-height: 35px;
+        height: 35px;
+
+    }
+}

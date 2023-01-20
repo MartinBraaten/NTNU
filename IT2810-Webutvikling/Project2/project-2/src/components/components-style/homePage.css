@@ -1,0 +1,169 @@
+#homePage{
+    min-height: 100vh;
+    height: 100%;
+}
+
+#dark {
+    background-color: #263c47;
+  }
+  
+#light {
+    background-color: #ededed;
+}
+
+#homeHeader {
+    line-height: 150px;
+    font-size: 100px;
+    font-weight: 350;
+    width: 500px;
+    margin: 0 auto;
+    text-shadow: 2px 2px black;
+}
+
+#light #homeHeader {
+    color: white;
+}
+
+#dark #homeHeader {
+    color: #1f3039;
+}
+
+#homeHeader:hover {
+    cursor: pointer;
+}
+#homeSplore {
+    color: #01C698;
+    text-shadow: 2px 2px black;
+}
+#homeSubtitle {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    color: white;
+    font-size: 25px;
+}
+#headerContainer {
+    position: relative;
+    height: 250px;
+    background-color: #345160;
+    z-index: 4;
+    overflow: hidden;
+}
+#headerContent {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    left: 0; 
+    right: 0; 
+    margin: 0 auto;
+}
+#headerImage {
+    width: 100vw;
+}
+#arrowContainer {
+    width: 60px;
+    margin: auto;
+}
+
+#arrowContainer:hover {
+    transform: scale(1.1);
+}
+
+#downArrow {
+    margin: auto;
+
+}
+#upArrow {
+    margin: auto;
+    display: none;
+}
+
+#toggleSwitchContainer {
+    right: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+#slideDown {
+    height: 320px;
+    width: 550px;
+    position: absolute;
+    top: -70px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    transition: 700ms;
+}
+
+#light #slideDown {
+    background-color: #345160;
+}
+
+#dark #slideDown {
+    background-color: #21343d;
+}
+
+#slideDownAnimation {
+    height: 320px;
+    width: 550px;
+    position: absolute;
+    top: 249px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    transition: 700ms;
+}
+
+#light #slideDownAnimation {
+    background-color: #345160;
+}
+
+#dark #slideDownAnimation {
+    background-color: #21343d;
+}
+
+#repoName {
+    position: relative;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 30px;
+}
+
+#light #repoName {
+    color: black;
+}
+
+#dark #repoName {
+    color: white;
+}
+
+#mobileTabs {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    #bigTabs{
+        display: none;
+    }
+    #mobileTabs{
+        display: flex;
+    }
+    #slideDown {
+        height: 250px;
+        width: 360px;
+    }
+    #slideDownAnimation {
+        height: 250px;
+        width: 360px;
+    }
+    #homeHeader {
+        font-size: 80px;
+        line-height: 150px;
+        width: 300px;
+
+    }
+}

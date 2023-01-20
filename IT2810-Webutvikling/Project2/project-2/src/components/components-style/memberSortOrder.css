@@ -1,0 +1,226 @@
+#sortAlternatives {
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+
+}
+#flexSortAlternativesDiv {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+.alternative {
+    border: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    width: 300px;
+}
+
+#light .alternative {
+    background-color: white;
+}
+
+#dark .alternative {
+    background-color: #1f323b;
+    color: #fff;
+}
+
+#light .alternative:hover {
+    background-color: #ededed;
+}
+
+#dark .alternative:hover {
+    background-color: #345160;
+}
+
+#outerFilterMemberSortBox {
+    position: relative;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#light #outerFilterMemberSortBox {
+    background-color: #00b188;
+}
+
+#dark #outerFilterMemberSortBox {
+    background-color: #345160;
+}
+
+#outerFilterMemberSortBox:hover {
+    cursor: default;
+}
+
+#outerFilterMemberSortBox h1 {
+    width: 100px;
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+#innerBox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+#innerBox:hover {
+    cursor: pointer;
+}
+
+#light #innerBox {
+    background-color: #01C698;
+}
+
+#dark #innerBox {
+    background-color: #345160;
+}
+
+#innerBox img {
+    width: 30px;
+    margin: auto;
+}
+
+#outerFilterMemberSortBox:hover #innerBox {
+    background-color: #03d4a3;
+    transition: 300ms;
+}
+
+@media screen and (max-width: 880px) {
+    #outerFilterMemberSortBox {
+        width: 120px;
+        height: 40px;
+    }
+    #innerBox {
+        width: 40px;
+        height: 40px;
+    }
+    #innerBox img {
+        width: 24px;
+    }
+    #outerFilterMemberSortBox h1 {
+        width: 80px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    #sortAlternatives {
+        width: 250px;
+    }
+    #flexSortAlternativesDiv {
+        width: 250px;
+    }
+    .alternative {
+        width: 250px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    #outerFilterMemberSortBox {
+        width: 100px;
+        height: 35px;
+    }
+    #innerBox {
+        width: 35px;
+        height: 35px;
+    }
+    #innerBox img {
+        width: 21px;
+    }
+    #outerFilterMemberSortBox h1 {
+        width: 65px;
+        font-size: 18px;
+        line-height: 35px;
+    }
+    #sortAlternatives {
+        width: 200px;
+        height: 80px;
+    }
+    #flexSortAlternativesDiv {
+        width: 200px;
+        height: 80px;
+
+    }
+    .alternative {
+        width: 200px;
+        font-size: 15px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #outerFilterMemberSortBox {
+        width: 80px;
+        height: 30px;
+    }
+    #innerBox {
+        width: 30px;
+        height: 30px;
+    }
+    #innerBox img {
+        width: 18px;
+    }
+    #outerFilterMemberSortBox h1 {
+        width: 50px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    #sortAlternatives {
+        width: 180px;
+        height: 80px;
+    }
+    #flexSortAlternativesDiv {
+        width: 180px;
+        height: 80px;
+
+    }
+    .alternative {
+        width: 180px;
+        font-size: 13px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #outerFilterMemberSortBox {
+        width: 120px;
+        height: 40px;
+    }
+    #innerBox {
+        width: 40px;
+        height: 40px;
+    }
+    #innerBox img {
+        width: 24px;
+    }
+    #outerFilterMemberSortBox h1 {
+        width: 80px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    #sortAlternatives {
+        width: 250px;
+    }
+    #flexSortAlternativesDiv {
+        width: 250px;
+    }
+    .alternative {
+        width: 250px;
+        font-size: 18px;
+    }
+}

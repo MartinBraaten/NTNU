@@ -1,0 +1,66 @@
+#toggle {
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    float: left;
+    color: white;
+    line-height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#light #toggle {
+    background-color: #00b188;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#dark #toggle {
+    background-color: #345160;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+
+}
+
+#light #toggle:hover {
+    background-color: #01C698;
+}   
+#dark #toggle:hover {
+    background-color: #415f6f;
+}   
+
+@media screen and (max-width: 880px) {
+    #toggle {
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+        width: 85px;
+
+    }
+}
+
+@media screen and (max-width: 740px) {
+    #toggle {
+        height: 35px;
+        font-size: 18px;
+        line-height: 35px;
+        width: 75px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #toggle {
+        height: 30px;
+        font-size: 15px;
+        line-height: 30px;
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #toggle {
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+        width: 85px;
+
+    }
+}
