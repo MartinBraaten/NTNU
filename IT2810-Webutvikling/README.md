@@ -1,0 +1,1 @@
+Project 1 was an individual assignment, while project 2-4 where group projects. 
