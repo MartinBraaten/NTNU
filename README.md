@@ -4,7 +4,9 @@ This repo contains some of my work and projects as a student at NTNU.
 
 **Courses contained in this repo:**
 
+- IT1901 - Informatikk prosjektarbeid I
 - IT2805 - Webteknologi
+- IT2810 - Webutvikling
 - TDT4100 - Objektorientert Programmering
 - TDT4109 - Informasjonsteknologi Grunnkurs
 - TDT4120 - Algoritmer og datastrukturer
@@ -14,11 +16,6 @@ This repo contains some of my work and projects as a student at NTNU.
 - TKT4201 - Konstruksjonsdynamikk
 - TKT4950 - Konstruksjonsteknikk, masteroppgave
 - TTM4100 - Kommunikasjon - Tjenester og nett
-
-**Courses I will add in January:**
-
-- IT2810 - Webutvikling
-- IT1901 - Informatikk prosjektarbeid I
 
 
 
