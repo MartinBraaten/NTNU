@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1domaf0"
+    role="RangeFilter"
+  >
+    <h6
+      class="MuiTypography-root MuiTypography-h6 MuiTypography-alignCenter css-fff52w-MuiTypography-root"
+    >
+      Attack range:
+    </h6>
+    <span
+      class="MuiSlider-root MuiSlider-colorPrimary MuiSlider-sizeMedium css-10drvo-MuiSlider-root"
+      role="rangeSlider"
+    >
+      <span
+        class="MuiSlider-rail css-14pt78w-MuiSlider-rail"
+      />
+      <span
+        class="MuiSlider-track css-1gv0vcd-MuiSlider-track"
+      />
+    </span>
+    <h6
+      class="MuiTypography-root MuiTypography-h6 MuiTypography-alignCenter css-gyuy0t-MuiTypography-root"
+      role="sliderValues"
+    >
+       - 
+    </h6>
+  </div>
+</div>
+`;

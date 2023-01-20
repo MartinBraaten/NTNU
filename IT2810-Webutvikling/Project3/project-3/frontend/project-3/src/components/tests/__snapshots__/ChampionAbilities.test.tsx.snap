@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-f80lqe-MuiContainer-root"
+  >
+    <h1
+      style="color: white; font-size: 60px;"
+    >
+      Abilities
+    </h1>
+    <div
+      class="MuiTabs-root css-1ujnqem-MuiTabs-root"
+      id="abilityTabs"
+    >
+      <div
+        class="MuiTabs-scroller MuiTabs-fixed css-jpln7h-MuiTabs-scroller"
+        style="overflow: hidden; margin-bottom: 0px;"
+      >
+        <div
+          aria-label="icon position tabs example"
+          class="MuiTabs-flexContainer css-heg063-MuiTabs-flexContainer"
+          role="tablist"
+        >
+          <button
+            aria-selected="true"
+            class="MuiButtonBase-root MuiTab-root MuiTab-labelIcon MuiTab-textColorPrimary Mui-selected css-eecttr-MuiButtonBase-root-MuiTab-root"
+            id="passiveTab"
+            role="tab"
+            tabindex="0"
+            type="button"
+          >
+            <img
+              alt="passive"
+              class="MuiTab-iconWrapper"
+              src="http://ddragon.leagueoflegends.com/cdn/12.20.1/img/passive/undefined"
+            />
+            Passive
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            aria-selected="false"
+            class="MuiButtonBase-root MuiTab-root MuiTab-labelIcon MuiTab-textColorPrimary css-eecttr-MuiButtonBase-root-MuiTab-root"
+            id="qTab"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            <img
+              alt="q"
+              class="MuiTab-iconWrapper"
+              src="http://ddragon.leagueoflegends.com/cdn/12.20.1/img/spell/"
+            />
+            Q
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            aria-selected="false"
+            class="MuiButtonBase-root MuiTab-root MuiTab-labelIcon MuiTab-textColorPrimary css-eecttr-MuiButtonBase-root-MuiTab-root"
+            id="wTab"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            <img
+              alt="w"
+              class="MuiTab-iconWrapper"
+              src="http://ddragon.leagueoflegends.com/cdn/12.20.1/img/spell/"
+            />
+            W
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            aria-selected="false"
+            class="MuiButtonBase-root MuiTab-root MuiTab-labelIcon MuiTab-textColorPrimary css-eecttr-MuiButtonBase-root-MuiTab-root"
+            id="eTab"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            <img
+              alt="e"
+              class="MuiTab-iconWrapper"
+              src="http://ddragon.leagueoflegends.com/cdn/12.20.1/img/spell/"
+            />
+            E
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            aria-selected="false"
+            class="MuiButtonBase-root MuiTab-root MuiTab-labelIcon MuiTab-textColorPrimary css-eecttr-MuiButtonBase-root-MuiTab-root"
+            id="rTab"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            <img
+              alt="r"
+              class="MuiTab-iconWrapper"
+              src="http://ddragon.leagueoflegends.com/cdn/12.20.1/img/spell/"
+            />
+            R
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+        <span
+          class="MuiTabs-indicator css-h6dpi3-MuiTabs-indicator"
+          style="left: 0px; width: 0px;"
+        />
+      </div>
+    </div>
+    <div
+      aria-labelledby="simple-tab-0"
+      id="simple-tabpanel-0"
+      role="tabpanel"
+    >
+      <div
+        class="MuiBox-root css-1snb51x"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-jb1ygz-MuiTypography-root"
+        >
+          <h2
+            style="color: rgb(207, 181, 59);"
+          />
+          <p />
+        </p>
+      </div>
+    </div>
+    <div
+      aria-labelledby="simple-tab-1"
+      hidden=""
+      id="simple-tabpanel-1"
+      role="tabpanel"
+    />
+    <div
+      aria-labelledby="simple-tab-2"
+      hidden=""
+      id="simple-tabpanel-2"
+      role="tabpanel"
+    />
+    <div
+      aria-labelledby="simple-tab-3"
+      hidden=""
+      id="simple-tabpanel-3"
+      role="tabpanel"
+    />
+    <div
+      aria-labelledby="simple-tab-4"
+      hidden=""
+      id="simple-tabpanel-4"
+      role="tabpanel"
+    />
+  </div>
+</div>
+`;

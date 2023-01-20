@@ -1,0 +1,129 @@
+#championPicture{
+    position: relative;
+    z-index: -1;
+    width: 100vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+#imageAndText{
+    text-align: center;
+    color: white;
+    position: relative;
+}
+#championInfo{
+    color: white;
+}
+
+#specsInfo{
+    display: flex;
+    flex-direction: row;
+    margin: 5px auto;
+}
+
+#championLore{
+    color: #cfb53b;
+}
+
+#specsQuery{
+    color: #cfb53b;
+    margin: auto 5px;
+}
+
+#backArrow{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 5vw;
+}
+
+#backArrow:hover{
+    filter: brightness(110%);
+    cursor: pointer;
+}
+
+#championSpecs{
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: flex;
+    width: 45vw;
+    text-align: center;
+    border: 1px solid rgb(207, 181, 59);
+    border: 1px solid rgba(207, 181, 59, .5);
+    padding: 0px 30px;
+
+}
+#championIntro{
+    width: 45vw;
+    text-align: center;
+    border: 1px solid rgb(207, 181, 59);
+    border: 1px solid rgba(207, 181, 59, .5);
+    padding: 3vw 30px;
+}
+
+#championInformation{
+    width: 90vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: flex;
+    margin: auto;
+}
+body {
+    background-image: url(../media/webdewbakgrunn.png);
+    background-size: 100vw;
+}
+
+#championBackground {
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    z-index: -1;
+    filter: brightness(20%) sepia(40%);
+}
+
+#championName {
+    font-size: 10vw;
+    margin: 0;
+    width: 100vw;
+}
+#championTitle{
+    font-size: 5vw;
+    margin: 0;
+    width: 100vw;
+}
+#textOnImage{
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    display: flex;
+    row-gap: 1px;
+}
+
+#playingTips {
+    width: 90vw;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    row-gap: 100px;
+    padding-left: 60px;
+
+}
+
+#howToPlay {
+    color: #cfb53b;
+}
+
+#howToPlayAgainst {
+    color: #cfb53b;
+}
+
+li {
+    padding-bottom: 10px;
+    width: 40vw;
+}
