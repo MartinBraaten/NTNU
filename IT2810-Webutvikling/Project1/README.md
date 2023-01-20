@@ -1,0 +1,1 @@
+In this project, we created two interactive works of "art". The purpose was to get a better knowledge about SVG, Canvas and jQuery. 

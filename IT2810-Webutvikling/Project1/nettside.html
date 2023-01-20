@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Prosjekt 1: Mitt abstrakte bilde</title>
+  </head>
+  <body>
+    <nav>
+      <div id='navbar'>
+        <ul class="navlinks">
+          <li>
+              <a href="#omkunstneren">Om kunstneren</a>
+          </li>
+          <li>
+              <a href="#wrapper">Kunsten</a>
+          </li>
+          <li>
+              <a href="#Om">Om bildene</a>
+          </li>
+          <li>
+              <a href="#dokumentasjon" onclick="visDokumentasjon1()">Dokumentasjon</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header>
+      <h1 id="title">Mitt abstrakte bilde: Canvas og SVG</h1>
+    </header>
+    <main>
+        <section id="omkunstneren">
+            <h2>Om kunstneren</h2>
+            <p>
+                Kunstneren av dette mesterverket er glad i koding og har en stor interesse for webutvikling. 
+                Han har også en stor interesse for kunst og har derfor laget dette mesterverket. 
+                Han har brukt HTML, CSS og JavaScript, samt SVG, Canvas og jQuery. 
+            </p>
+        </section>
+        <div class="wrapper" id="wrapper">
+            <section id="canvas">
+                <h2>Canvas</h2>
+                <canvas id="myCanvas" width="400" height="400" style="border: 1px solid #000000">
+                Nettleseren din støtter ikke HTML5 canvas tag.
+                </canvas>
+
+                <form>
+                  <label for="speedCanvas">Rotasjonshastighet:</label>
+                  <input id="speedCanvas" type="range" min="1" max="5" list="list">
+                  <datalist id="list">
+                    <option value="1" label="1"></option>
+                    <option value="2" label="2"></option>
+                    <option value="3" label="3"></option>
+                    <option value="4" label="4"></option>
+                    <option value="5" label="5"></option>
+                  </datalist>
+                </form>
+              </section>
+        
+            <section id="svg">
+                <h2>SVG</h2>
+                  <svg id="figurSVG" width="400" height="400" style="border: 1px solid #000000"  onmouseover="start()" onmouseleave="stop()"> 
+                  <rect id="rect" x="0" y="0" width="400" height="400" fill="white"  />  
+                  <desc>Stolpe</desc>
+                    <rect id="stolpe" x="190" y="140" width="20" height="250" fill="lightgrey" stroke="black"></rect>
+                    
+                    <desc>Vindmøllebladsirkel</desc>
+                    <circle class="runding" id="runding" cx="200" cy="140" r="20" fill="blue" stroke="black"/>
+                    
+                    <desc>Vindmølleblad</desc>
+                    <polyline class="blad" id="nord" points="200,120 200,10 220,90 205,120" fill="red" stroke="black"></polyline>
+                    <polyline class="blad" id="syd" points="200,160 200,270 180,180 195,160" fill="red" stroke="black"></polyline>
+                    <polyline class="blad" id="vest" points="180,140 70,140 150,120 180,135" fill="red" stroke="black"></polyline>
+                    <polyline class="blad" id="øst" points="220,140 330,140 250,160 220,145" fill="red" stroke="black"></polyline>
+                    
+                    <desc>Lyspære</desc>
+                    <circle id="lys" cx="330" cy="260" r="20" fill="white" stroke="black"></circle>
+                    <rect id="boks" x="300" y="300" width="60" height="60" fill="lightblue" stroke="black"></rect>
+                    <polyline points="210,390 300,360 360,360 210,390" fill="white" stroke="black"></polyline>
+                    <line x1="305" x2="315" y1="350" y2="350" stroke="black"></line>
+                    <line x1="310" x2="310" y1="345" y2="355" stroke="black"></line>
+                    <line x1="345" x2="355" y1="350" y2="350" stroke="black"></line>
+                    
+                    <line x1="325" x2="335" y1="295" y2="295" stroke="black"></line>
+                    <line x1="323" x2="337" y1="290" y2="290" stroke="black"></line>
+                    <line x1="320" x2="340" y1="285" y2="285" stroke="black"></line>
+                </svg>
+
+                <form>
+                  <label for="speedSVG">Rotasjonshastighet:</label>
+                  <input id="speedSVG" type="range" min="1" max="5" list="list2">
+                  <datalist id="list2">
+                    <option value="1" label="1"></option>
+                    <option value="2" label="2"></option>
+                    <option value="3" label="3"></option>
+                    <option value="4" label="4"></option>
+                    <option value="5" label="5"></option>
+                  </datalist>
+                </form>
+            </section>
+        </div>
+
+        <br>
+        <br>
+        <section id="Om">
+          <h2>Om bildene</h2>
+          <p>Vindmøllene vil starte å bevege seg når en holder musa over bildet. Lyspæren vil da bli skrudd på, og være på så lenge vindmøllen roterer. 
+            Man kan justere rotasjonshastigheten på 5 forskjellige nivåer. I SVG-animasjonen vil elementene skifte farge når en holder over de. 
+          </p>
+          <p>
+            Det er noen forskjeller mellom Canvas og SVG animasjonene. I både Canvas og SVG vil vindmøllen stoppe der den er, men 
+            vindmøllen i Canvas har en traileffekt. 
+            Dette viste seg å være ekstremt tidkrevende å få til i SVG, og har derfor ikke blitt laget. Det motsatte var tilfelle med å endre farge ved å hovre over enkeltelementer i Canvas.
+            I SVG var dette enkelt å implementere, da enkeltobjektene er definert. I Canvas er ikke elementene definert, og man må
+            sjekke til enhver tid hvor i canvaset musa og de ande objektene er. 
+          </p>
+        </section>
+        <br>
+        <br>
+        <br>
+        <div id="knappContainer">
+          <button id="knapp" onclick="visDokumentasjon()">Skjul dokumentasjonen</button>
+        </div>
+        
+
+        <section id="dokumentasjon">
+            <h2>Dokumentasjon</h2>
+            <!-- <p>Gi en beskrivelser av hvordan du har brukt CSS-grid og Flexbox-layout, forklar dine valg. </p> -->
+            <p>
+              Canvas og SVG er satt i en egen wrapper-klasse, hvor det er blitt brukt CSS-grid. 
+              Disse er satt ved siden av hverandre i hver sin kolonne, og sentrert i midten.
+              I navbaren er det brukt flex, for å teste ut dette også. Flex setter automatisk elementene inn i en rad istedenfor kolonne, 
+              og med justify-content: space-around så er det plass mellom elementene.
+            </p>
+
+            <!-- <p>Gi en beskrivelse av hvordan du har brukt HTML Canvas og SVG i HTML. </p> -->
+            <p>
+              Canvaset er tegnet i javascript-filen, som igjen er importert i footeren. I en form har rotasjonshastigheten brukeren setter blitt tatt inn i javascriptfilen.
+              Canvaset blir først tegnet statisk, og deretter animert når en hovrer over. Dette blir gjort ved å bruke en funksjon som tegner vindmøllen på nytt,
+              og roterer vindmøllebladene. Dette skjer ved en eventlistener som sjekker mouseover, for så kaller på requestAnimationFrame. 
+              Når en forlater canvaset med musa, vil cancelAnimationFrame bli kalt, og animasjonen stopper.
+              Lyset blir så tegnet på nytt, bare med hvitt fyll. 
+            </p>
+            <p>
+              Canvaselementene har alle blitt tegnet hver for seg. En bedre metode ville vært å tegnet ett vindmølleblad med globale variabler,
+              for så å lage en for-loop og tegne de andre. Dette ville igjen kunne gjort det enklere å lage en funksjon for 
+              mouseover for å endre fargene på objektene, da en har bedre kontroll på alle elementene til enhver tid. 
+            </p>
+            <p>
+              SVG er tegnet i HTML-filen. Animasjonen starter når en holder musa over bildet. Dette skjer når start()-funksjonen i javascript-filen blir kalt ved mouseover.
+              Den stoppes på samme måte med onmouseleave="stop()"-funksjonen. Funksjonen animeres ved at en henter objektet fra HTML-filen, 
+              og roterer elementet etter en bestemt path, som i dette tilfellet er sirkelen i midten av vindmøllen. 
+            </p>
+
+            <!-- <p>Gi en kort beskrivelse av hvordan du har brukt jQuery.</p> -->
+            <p>
+              jQuery er blitt brukt når fargene i SVG elementene skal endres. Når en holder over rundingen i sentrum av 
+              vindmøllen så vil den bli lilla, og alle vindmøllebladene bli svarte. Om man holder over et enkelt blad vil 
+              det bli grønt istedet. 
+            </p>
+
+            <!-- <p>Gi en kort beskrivelse av hvordan du har utført cross-browser testing. </p> -->
+            <p>
+              For cross-browser testing åpnet jeg nettsiden i Microsoft Edge, Chrome og Firefox, og alle animasjonene og knappene fungererte slik de skulle.
+              Størrelsen på vinduet påvirker ikke animasjonene, og teksten på nettsiden endrer seg med vinduet. Posisjonen og størrelsen til Canvaset og SVGen er fast, og 
+              blir ikke endret med størrelsen på vinduet.
+            </p>
+            
+            <!-- <p>List opp de viktigste (mest nyttige) informasjonskildene du har brukt (tutorials, websider, bøker).</p> -->
+            <!-- <a href=""></a> -->
+            <!-- <p>Husk å oppgi kilder hvis du gjenbruker kodesnutter. </p> -->
+            <h3>Kilder:</h3>
+            <p>
+              De viktigste kildene jeg har brukt er w3schools.com, stackoverflow og developer.mozilla.org. 
+              Noen av kildene jeg har brukt og hentet inspirasjon ifra er:
+            </p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">https://developer.mozilla.org/en-US/docs/Web/HTML</a>
+            <br>
+            <p>Canvas animasjon: </p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations">https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations</a>
+
+            <p>SVG animasjon: </p>
+            <a href="https://stackoverflow.com/questions/44352319/svg-circle-path-animation">Nettside for SVG animasjon: https://stackoverflow.com/questions/44352319/svg-circle-path-animation</a>
+
+            <p>Endre på knappen for dokumentasjonen:</p>
+            <a href="https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp">https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp</a>
+        </section>    
+    </main>
+    <footer class="footer"> 
+      <p>
+        Sist oppdatert: 06.09.2022
+      </p>
+      <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" />
+        </a>
+      </p>
+      <script src="javascript.js"></script>
+      <script>
+        // jQuery, endring av farge på SVG-vindmøllebladene når en hovrer over sirkelen i midten.
+        $(document).ready(() => {
+            $('#runding').hover(() => {
+                $('.blad').css('fill', 'black');
+            }, () => {
+                $('.blad').css('fill', '');
+            });
+        });
+    </script>
+    </footer>
+  </body>
+</html>
