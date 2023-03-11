@@ -1,1 +1,0 @@
-This folder is for components that use other components, but that is not a complete page

@@ -1,1 +1,0 @@
-This folder is for the base components that do not use other components
