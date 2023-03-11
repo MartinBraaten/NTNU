@@ -34,3 +34,6 @@
 [submodule "IT1901-ITP"]
 	path = IT1901-ITP
 	url = https://github.com/MartinBraaten/IT1901-ITP
+[submodule "TDT4140-Programvareutvikling"]
+	path = TDT4140-Programvareutvikling
+	url = https://github.com/MartinBraaten/TDT4140-Programvareutvikling
