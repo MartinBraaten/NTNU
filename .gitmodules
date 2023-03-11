@@ -31,3 +31,6 @@
 [submodule "IT2810-Webdev"]
 	path = IT2810-Webdev
 	url = https://github.com/MartinBraaten/IT2810-Webdev
+[submodule "IT1901-ITP"]
+	path = IT1901-ITP
+	url = https://github.com/MartinBraaten/IT1901-ITP
