@@ -28,3 +28,6 @@
 [submodule "TDT4109-ITGK"]
 	path = TDT4109-ITGK
 	url = https://github.com/MartinBraaten/TDT4109-ITGK
+[submodule "IT2810-Webdev"]
+	path = IT2810-Webdev
+	url = https://github.com/MartinBraaten/IT2810-Webdev
